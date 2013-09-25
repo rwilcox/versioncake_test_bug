@@ -20,3 +20,8 @@ Steps to see it fail:
   3. restart rails server
   3. In browser: localhost:3000/tester
   4. You should see an error about RABL. **BUT WAIT, I WANTED HTML!!!**
+
+An oddity
+-----------------
+
+Rename `app/views/tester/index.html.erb` to `app/views/tester/index.v1.html.erb` and see it render!
